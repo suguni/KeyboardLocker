@@ -27,11 +27,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
-        self.appBundleID = UserDefaults.standard.string(forKey: "appBundleID") ?? ""
-        self.inputSource = UserDefaults.standard.string(forKey: "inputSource") ?? ""
-        
-        print(self.appBundleID)
-        print(self.inputSource)
+        self.appBundleID = UserDefaults.standard.string(forKey: "appBundleID") ?? "org.gnu.Emacs"
+        self.inputSource = UserDefaults.standard.string(forKey: "inputSource") ?? "com.apple.keylayout.ABC"
         
         InputSourceManager.initialize()
         

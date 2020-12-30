@@ -1,12 +1,15 @@
-#+TITLE: Readme
+#+TITLE: KeyboardLocker
+
+* 소개
+Emacs가 활성화 되면 키보드 입력 소스를 영어로 바꿔주는 앱
 
 * 할일들
 - +메뉴바에만 노출하기+
-- 설정 추가
-  - +앱/입력 소스 선택하기+
-  - 다중 앱/입력 소스 지원
+- +설정에서 앱/입력 소스 선택하기+
+- 다중 앱/입력 소스 지원
 - Privacy / Accessibility 처리
 
 * 참고
-- https://medium.com/@acwrightdesign/creating-a-macos-menu-bar-application-using-swiftui-54572a5d5f87
+- https://github.com/laishulu/emacs-smart-input-source
 - https://www.appcoda.com/macos-status-bar-apps/
+- https://medium.com/@acwrightdesign/creating-a-macos-menu-bar-application-using-swiftui-54572a5d5f87
