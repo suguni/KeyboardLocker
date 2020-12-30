@@ -1,13 +1,12 @@
 #+TITLE: Readme
 
 * 할일들
-- 메뉴바에만 노출하기
+- +메뉴바에만 노출하기+
 - 설정 추가
-  - 앱/입력 소스 선택하기
+  - +앱/입력 소스 선택하기+
   - 다중 앱/입력 소스 지원
 - Privacy / Accessibility 처리
 
 * 참고
-
-https://medium.com/@acwrightdesign/creating-a-macos-menu-bar-application-using-swiftui-54572a5d5f87
-
+- https://medium.com/@acwrightdesign/creating-a-macos-menu-bar-application-using-swiftui-54572a5d5f87
+- https://www.appcoda.com/macos-status-bar-apps/
