@@ -11,6 +11,10 @@
 		42044CA6259CB1D9001E09D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044CA5259CB1D9001E09D4 /* ViewController.swift */; };
 		42044CA8259CB1D9001E09D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42044CA7259CB1D9001E09D4 /* Assets.xcassets */; };
 		42044CAB259CB1D9001E09D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42044CA9259CB1D9001E09D4 /* Main.storyboard */; };
+		42044CB5259CB37C001E09D4 /* InputSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044CB4259CB37C001E09D4 /* InputSourceManager.swift */; };
+		42044CB9259CB89E001E09D4 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044CB7259CB89E001E09D4 /* PreferencesView.swift */; };
+		42044CBA259CB89E001E09D4 /* PreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42044CB8259CB89E001E09D4 /* PreferencesView.xib */; };
+		42044CBD259CB96B001E09D4 /* LoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42044CBC259CB96B001E09D4 /* LoadableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		42044CAA259CB1D9001E09D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42044CAC259CB1D9001E09D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42044CAD259CB1D9001E09D4 /* KeyboardLocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyboardLocker.entitlements; sourceTree = "<group>"; };
+		42044CB4259CB37C001E09D4 /* InputSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSourceManager.swift; sourceTree = "<group>"; };
+		42044CB7259CB89E001E09D4 /* PreferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		42044CB8259CB89E001E09D4 /* PreferencesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesView.xib; sourceTree = "<group>"; };
+		42044CBC259CB96B001E09D4 /* LoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,20 @@
 				42044CA9259CB1D9001E09D4 /* Main.storyboard */,
 				42044CAC259CB1D9001E09D4 /* Info.plist */,
 				42044CAD259CB1D9001E09D4 /* KeyboardLocker.entitlements */,
+				42044CB4259CB37C001E09D4 /* InputSourceManager.swift */,
+				42044CBF259CB97B001E09D4 /* Custom View */,
 			);
 			path = KeyboardLocker;
+			sourceTree = "<group>";
+		};
+		42044CBF259CB97B001E09D4 /* Custom View */ = {
+			isa = PBXGroup;
+			children = (
+				42044CBC259CB96B001E09D4 /* LoadableView.swift */,
+				42044CB7259CB89E001E09D4 /* PreferencesView.swift */,
+				42044CB8259CB89E001E09D4 /* PreferencesView.xib */,
+			);
+			path = "Custom View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +142,7 @@
 			files = (
 				42044CA8259CB1D9001E09D4 /* Assets.xcassets in Resources */,
 				42044CAB259CB1D9001E09D4 /* Main.storyboard in Resources */,
+				42044CBA259CB89E001E09D4 /* PreferencesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				42044CA6259CB1D9001E09D4 /* ViewController.swift in Sources */,
+				42044CB9259CB89E001E09D4 /* PreferencesView.swift in Sources */,
+				42044CBD259CB96B001E09D4 /* LoadableView.swift in Sources */,
 				42044CA4259CB1D9001E09D4 /* AppDelegate.swift in Sources */,
+				42044CB5259CB37C001E09D4 /* InputSourceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +284,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
